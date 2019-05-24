@@ -1,0 +1,171 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.hidro{
+    text-align: center;
+    font-family:MONSERRAT;
+    color: #000;
+}
+
+.carousel-inner{
+   /*height:600px !important;*/ 
+   position: absolute;
+}
+
+.linea{
+    
+    background: #00abf0;
+    size: 15px;
+}
+.b1{
+    color: blue;
+    background-color: black;
+}
+
+#box-4{
+    position: fixed;
+    background: rgb(148, 157, 243);
+}
+
+.navbar{
+    border-radius: 15px;
+    
+}
+
+
+.nav-link{
+    width: 300px;
+    text-align: center;
+}
+.acerca{
+    text-align: center;
+
+}
+.MV{
+    width: 50px;
+    height: 50px;
+}
+
+.MV1{
+    width: 100px;
+    height: 100px;
+margin-top: 30px;
+    
+}
+
+
+.social{
+    position: fixed;
+    left: 0;
+    top: 300px;
+    z-index: 2000;
+}
+
+.social ul{
+    list-style: none;
+}
+.social ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 20px 25px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.icon-facebook2{
+    color: #fff;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+
+.icon-linkedin2{
+    color:#fff;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+
+.social ul li .icon-facebook{background:#3b5998 }
+.social ul li .icon-twitter{background:#00abf0 }
+.social ul li .icon-mail2{background:#ae181f }
+.social ul li .icon-linkedin{background:#0077b5}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #000;
+}
+.parra1{
+    color: blue;
+   
+}
+
+.sener{
+    height: 150px;
+    width: 200px;
+}
+.titulof{
+    size: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.mision{
+    text-align: center;
+}
+
+.vision{
+    text-align: center;
+}
+
+.permiso{
+    text-align: center;
+}
+.text2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.ico2{
+    color: #ae181f;
+}
+
+.c2{
+    text-align: center;
+    
+}
+ul.azul {
+    list-style-type: circle;
+   
+  }
+hr.v{
+    width: 1px;
+    height: 500px;
+    }
+   
+.foot{
+    border-radius: 15px;
+    height: 90px;  
+}
+
+.redesociales{
+    display:none;
+}
+
+@media (max-width: 900px) {
+    .social {
+      display: none;
+    }
+    .redesociales{
+        display:block;
+    }
+}
+
