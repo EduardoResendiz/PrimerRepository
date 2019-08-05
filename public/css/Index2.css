@@ -7,16 +7,41 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.permi{
+text-align: center;
+}
 .hidro{
     text-align: center;
     font-family:MONSERRAT;
     color: #000;
 }
 
+.acercade{
+    text-align: justify;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;   
+}
+.logo{
+    height: 60%;
+    width: 60%;
+}
+
+.logo2{
+    height: 30%;
+    width: 30%;
+}
+.figure{
+    height: 30%;
+    width: 30%;
+}
+
 .carousel-inner{
    /*height:600px !important;*/ 
    position: absolute;
 }
+
 
 .linea{
     
@@ -33,23 +58,22 @@
     background: rgb(148, 157, 243);
 }
 
-.navbar{
-    border-radius: 15px;
-    
-}
+
 
 
 .nav-link{
     width: 300px;
     text-align: center;
 }
-.acerca{
+.acercade{
     text-align: center;
+    text-align: justify;
 
 }
 .MV{
     width: 50px;
     height: 50px;
+    margin-right: 15px;
 }
 
 .MV1{
@@ -110,8 +134,14 @@ margin-top: 30px;
 }
 
 .sener{
-    height: 200px;
-    width: 300px;
+    width: 100%;
+ height: 100%;
+ margin: 20px -200px;
+}
+.cre{
+    width: 90%;
+ height: 90%;
+ margin: 0px -200px;
 }
 .titulof{
     size: 8px;
@@ -120,6 +150,7 @@ margin-top: 30px;
 }
 .mision{
     text-align: center;
+    
 }
 
 .vision{
@@ -151,11 +182,6 @@ hr.v{
     height: 500px;
     }
    
-.foot{
-    border-radius: 15px;
-    height: 90px;  
-}
-
 .redesociales{
     display:none;
 }
