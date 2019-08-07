@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -23,15 +21,15 @@ text-align: center;
     display: flex;
     justify-content: center;   
 }
-.logo{
-    height: 60%;
-    width: 60%;
+
+.logoo{
+text-align: center;
 }
 
-.logo2{
-    height: 30%;
-    width: 30%;
-}
+/* .logo{
+    height: 50%;
+    width: 50%;
+} */
 .figure{
     height: 30%;
     width: 30%;
@@ -59,12 +57,13 @@ text-align: center;
 }
 
 
-
-
-.nav-link{
-    width: 300px;
-    text-align: center;
+.blanco{
+    color: #fff;
 }
+
+ /* .nav-link{
+    width: 160px;   
+}  */
 .acercade{
     text-align: center;
     text-align: justify;
@@ -185,6 +184,9 @@ hr.v{
 .redesociales{
     display:none;
 }
+.logo{
+    display: none;
+}
 
 @media (max-width: 900px) {
     .social {
@@ -193,5 +195,5 @@ hr.v{
     .redesociales{
         display:block;
     }
+    
 }
-
