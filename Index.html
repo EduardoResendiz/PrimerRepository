@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="id=edge">
     <link rel="stylesheet" href="./public/css/Index2.css">
     <link rel="stylesheet" href="./public/icons/fonts.css">
+    <script src="Index.js"></script>
    
 
     
@@ -21,31 +22,37 @@
   </head>
 
   <body>
-  
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-    
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">             
-            <li class="nav-item active  ">
-               <a class="nav-link btn-info" href="#acercade">Acerca de nosotros <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link btn-info" href="#caracteristicas">Caracteristicas<span class="sr-only ">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link btn-info" href="#misionVision">Mision y Vision<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link btn-info" href="#permisos">Permisos <span class="sr-only">(current)</span></a>
-            </li>                       
-          </ul>           
-      </div>
-    </nav>
-    <div class="container logoo">
-        <img src="./public/LOGOS HIDROMEX/iconChido.png" width="20%" height="20%" alt="">
+    <div class="container" id="Inicio" >
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                              <a class="nav-link" href="#Acerca"><p class="menu">NOSOTROS</p><span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item active">
+                              <a class="nav-link" href="#misionVision"><p class="menu">VISIÓN</p><span class="sr-only">(current)</span></a>
+                          </li>
+                      </ul>
+                      <ul class="navbar-nav md-auto">      
+                          <li>
+                              <div class="container logoo">
+                                  <img src="./public/img/Hidromex_logo2.png" width="40%" height="20%" alt="">
+                              </div>
+                          </li>
+                      </ul>
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item active">
+                              <a class="nav-link" href="#permisos"><p class="menu">PERMISOS</p><span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item active">
+                              <a class="nav-link" href="#Contacto"><p class="menu">CONTACTO</p><span class="sr-only">(current)</span></a>
+                          </li>
+                      </ul><hr>
+                      </div>
+                    </nav><hr class="lineaAzul">
     </div>
         
      
@@ -91,8 +98,9 @@
                     <figcaption class="figure-caption"></figcaption>
                   
             </div>
-              <div class="col-md-6 container sss">
+              <div class="col-md-6 container sss" id="Acerca">
                   <h2 class="acerca">Acerca de nosotros</h2>
+                  <h5>Historia y evolución de Hidromex</h5>
                   <br>
                   <p class="acercade">Empresa conformada el 22 de Junio de 2017 por empresarios mexicanos que cuentan con amplia
                       experiencia en materia financiera, comercialización de petrolíferos y de coordinación operativa
@@ -121,8 +129,8 @@
               <h2 class="mision"><img class="MV" src="./public/icons/Mission.png" alt="">Misión</h2>
               
               <br><br>
-              <p class="container">Suministrar combustibles de aviación en toda la república mexicana, proveer servicios de
-                into-plane y servicios de coordinación operativa logística.</p><br><br><hr class="linea"/>
+              <p class="container">Suministrar hidrocarburos en toda la república mexicana, proveer servicios de into-plane y
+                servicios de coordinación operativa logística.</p><br><br><hr class="linea"/>
             </div>
             <div class="col-md-6 ">
               <h2 class="vision"><img class="MV" src="./public/icons/eye.png" alt="">Visión</h2>
@@ -175,7 +183,8 @@
                 <div class="row">
                   <h2 class="permiso">Permiso de Comercializacion</h2>
                   <div class="col-md-6">
-                    <a href="https://www.gob.mx/cms/uploads/attachment/file/302559/ACT-002-2018.pdf">CRE H/20837/COM/2018</a>
+                    <p>CRE H/20837/COM/2018</p>
+                    <a href="public/img/Tiìtulo de permiso Comercializacioìn HIDROMEXTURBOSINA  RES.129.2018.pdf" >Pulsa para descargar</a>
                   </div>
                   <div class="col-md-6">
                     <img class="cre container" src="./public/img/Cre.png"  >
@@ -186,7 +195,7 @@
              <div class="row">
                 <h2 class="permiso">Permiso de Importación</h2>
                   <div class="col-md-6">
-                      <a href="https://www.gob.mx/busqueda?utf8=%E2%9C%93&site=sener&q=">SENER 1701C117009404</a>
+                      <p>SENER 1701C117009404</p>
                   </div>
                   <div class="col-md-6">
                       <img class="sener container" src="./public/img/logo-sener.jpg" alt="">
@@ -199,17 +208,22 @@
 
 
          <div class="container">
-           <div class="row">
+           <div class="row" id="Contacto">
              <div class="col-6 mapa container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1300162247267!2d-99.16450618514351!3d19.406787586899007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff15dfbdcb8d%3A0xf5d61134b9df763f!2sPiso+2%2C+Amealco+8%2C+Roma+Sur%2C+06760+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses!2smx!4v1558626938837!5m2!1ses!2smx" width="100%" height="80%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                <div class="col-6">
-                  <h2 class="titulof container">Contacto</h2>
-                  <p class="text2 container">Calle de Amealco, Nro. 8, Piso 2, Col. Roma Sur, <br> Delegación Cuauhtemoc, CP. 06760,
+                <div class="col-6 container">
+                  <h2 class="titulof container">Dirección</h2>
+                  <p class="text2 container">Calle de Amealco, N°. 8, Piso 2, Col. Roma Sur, <br> Delegación Cuauhtemoc, CP. 06760,
                   <br>
                       Ciudad de México – México.</p> <br>
-                  <h2 class="titulof container">Teléfonos</h2> <br>  
-                  <p class="text2 container">+52 1 (55) 31 97 9267 / +52 (55) 53 95 40 58 / <br>  +52 1 (55) 54 55 31 81</p>
-                    
+                  <h2 class="titulof container">Teléfonos</h2> 
+                  <p class="text2 container">(55)38885931 <br> (55)53954115<br></p>
+                </div>
+                <div class="container">
+                  <h2 class="titulof container">Correos</h2> 
+                  <p class="text2 container">javier.perezteuffer@hidromexenergy.com.mx </p>
+                  <p class="text2 container">luis.chavarria@hidromexenergy.com.mx</p>
+                  <p class="text2 container">gerardo.muguira@hidromexenergy.com.mx</p>
                 </div>
                </div>
            </div>
@@ -223,7 +237,7 @@
                       © 2019 Copyright:
                   <a class="Hidro text-white" href="https://getbootstrap.com/docs/4.0/components/navbar/">HIDROMEX ENERGY</a>
                   <div class="container">
-                      <img src="./public/LOGOS HIDROMEX/iconChido2.png" width="30%" height="30%" alt="">
+                      <img src="./public/img/Hidromex_logo2.png" width="30%" height="30%" alt="">
                   <div class="redesociales">                          
                       <a href="" class="icon-facebook2"></a> 
                       <a href="" class="icon-linkedin2"></a>                           
