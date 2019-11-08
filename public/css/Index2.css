@@ -8,6 +8,13 @@
 .permi{
 text-align: center;
 }
+.mapa{
+    width:80% ;
+    height: auto;
+    margin: 0 120px;
+
+}
+
 .hidro{
     text-align: center;
     font-family:MONSERRAT;
@@ -204,6 +211,11 @@ hr.v{
     }
     .redesociales{
         display:block;
+    }
+    .mapa{
+        width:80% ;
+        height: auto;
+        margin: 0 30px;
     }
     
 }
